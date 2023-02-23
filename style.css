@@ -1,0 +1,147 @@
+body {
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffa2f4;
+  }
+  *{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  }
+  h1 {
+      text-align: center;
+      font-size: 50px;
+      margin-top: 10px;
+      color: rgb(255, 255, 255);
+    }
+  
+    .form{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 10%;
+      margin-left: 25%;
+      margin-right: 25%;
+      border: none;
+      padding: 50px;
+      border-radius: 10px;
+    }
+
+    #name{
+      width: 50%;
+      height: 36px;
+      font-size: 18px;
+      padding: 10px;
+      margin-top: 30px;
+      text-align: center;
+      border-radius: 20px;
+      border-style: none;
+    }
+  
+    .PlayAgain,
+    #continueButton,
+    #startButton {
+      margin-top: 20px;
+      padding: 10px 20px;
+      font-size: 18px;
+      background-color: rgb(226, 35, 162);
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+    .PlayAgain:hover,
+    #startButton:hover,
+    #continueButton:hover{
+      background-color: #fb00c5;
+      color: white;
+    }
+  
+    .instructions {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 13%;
+        margin-left: 30%;
+        margin-right: 30%;
+        color:white;
+      }
+
+      .box {
+        padding: 20px;
+        text-align: center;
+    }
+    .box h2{
+      margin-bottom: 20px;
+    }
+    .box p{
+        font-size: 20px;
+
+    }
+
+#updated-name{
+    font-size: 20px;
+}
+
+.main{
+  width:100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#box2{
+  width: 40%;
+  box-shadow: 0px 0px 5px rgb(185, 185, 185);
+  color: white;
+  /* background-color: rgba(64, 64, 212, 0.849); */
+  border-radius: 5px;
+  padding:15px
+}
+
+.row{
+  width:100%;
+  margin: 2rem;
+}
+.options:hover{
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+}
+
+  .submit-Button{
+  width: 40%;
+  margin-top: 20px;
+  margin-left: 30%;
+  padding: 10px 20px;
+  font-size: 20px;
+  text-align: center;
+  border: none;
+  color: whitesmoke;
+  border-radius: 5px;
+  background-color: rgb(225, 16, 208) ; 
+}
+
+.submit-Button:hover{
+  cursor: pointer;
+  background-color: rgb(221, 12, 176);
+}
+.Score-box{
+  display: none;
+}
+
+#countdown {
+  text-align: right;
+  right: 20px;
+  top: 20px;
+  font-size: 20px;
+}
+.Score-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  margin-top: 20%;
+  margin-left: 25%;
+  margin-right: 25%;
+}

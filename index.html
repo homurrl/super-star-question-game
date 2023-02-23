@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz McQuiz</title>
+</head>
+<body>
+
+    <!-- Intial Form -->
+    
+    <form class="form" id="intial-form" action="#">
+        <h1>Programming Quiz</h1>
+        <input type="text" id="name" placeholder="Please Enter Your Name" required/>
+        <input type="submit" id="continueButton" value="Continue"/>
+    </form>
+
+    <!-- Instruction Page -->
+    
+    <div class="instructions" id="instructions">
+        <h1 id="updated-name"></h1>
+        <div class="box">
+            <h2>Test Instructions</h2>
+            <p>1. The quiz contains 10 multiple choice questions</p>
+            <p>2. You have 5 minutes</p>
+            <p>3. Please click the submit button to go to next question</p>
+            <p><3</p>
+            <button id="startButton">Start</button>
+        </div>
+    </div>
+
+
+    <!-- Questions -->
+
+    <div class="main" id="Question-Box">
+        <div id="box2">
+            <div id="countdown">00:00</div>
+            <h2 id="question-heading" >Dummy text</h2>
+            <div class="row">
+                <input name="option" class="options" id="option-1" type="radio" value="a">
+                <label class="options" for="option-1"> a) Option 1</label>
+            </div>
+            <div class="row">
+                <input name="option" class="options" id="option-2" type="radio" value="b">
+                <label class="options" for="option-2">b) Option 2</label>
+            </div>
+            <div class="row">
+                <input name="option" class="options" id="option-3" type="radio" value="c">
+                <label class="options" for="option-3">c) Option 3</label>
+            </div>
+            <div class="row">
+                <input name="option" class="options" id="option-4" type="radio" value="d">
+                <label class="options" for="option-4">d) Option 4</label>
+            </div>
+            <div class="submit-Button" id="submit-Button">
+                Submit
+            </div>
+        </div>
+    </div>
+
+    <div class="Score-box" id="Score-box">
+        <h3 id="user-Score"></h3>
+        <Button class="PlayAgain" id="Play-Again">
+            Play Again?
+        </Button>
+    </div>
+
+    
+
+    <script src="index.js"></script>
+
+  </body>
+
+</html>
